@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  MyFirstTravis
-//
-//  Created by mas.t on 2017/08/13.
-//  Copyright © 2017年 masa. All rights reserved.
-//
 
 import UIKit
 
