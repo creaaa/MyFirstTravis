@@ -9,5 +9,9 @@ class ViewController: UIViewController {
         
     }
 
+    func hoge() {
+        print("hoge!")
+    }
+    
 }
 

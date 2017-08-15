@@ -1,13 +1,7 @@
-//
-//  MyFirstTravisTests.swift
-//  MyFirstTravisTests
-//
-//  Created by mas.t on 2017/08/13.
-//  Copyright © 2017年 masa. All rights reserved.
-//
 
 import XCTest
 @testable import MyFirstTravis
+
 
 class MyFirstTravisTests: XCTestCase {
     
@@ -32,5 +26,10 @@ class MyFirstTravisTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testHoge() {
+        XCTAssertTrue(true)
+    }
+    
     
 }
