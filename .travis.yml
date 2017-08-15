@@ -1,6 +1,5 @@
 language: objective-c
 osx_image: xcode8.3
 script: #
-  #- xcodebuild test -scheme MyFirstTravis -configuration Debug -destination 'platform=iOS Simulator,OS=10.3.1,name=iPhone 7' | bundle exec xcpretty -c
   - xcodebuild -scheme MyFirstTravis -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=10.3,name=iPhone 7' -configuration Debug test | xcpretty -c
 xcode_sdk: iphonesimulator
